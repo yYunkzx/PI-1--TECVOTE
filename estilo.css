@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  *{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+.formulario-login{  
+  
+    margin:auto;
+    width: 50%;
+    max-width:400px;
+    padding:30px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-bottom:5px solid #c41515;
+    background-color: rgb(219, 217, 217);
+    border-radius:15px;
+   }
+   body {
+    font-family: "Noto Sans", sans-serif;
+}
+.formulario-login input{
+    display:block;
+    width:100%;
+    background:#cccaca;
+    border:none;
+    margin:30px 0;
+    padding:10px;
+    outline:none;
+    border-radius: 10px;
+  }
+ 
+  .formulario-login input[type="submit"]{
+    background:#c41515;
+    opacity:0.9;
+    border:none;
+    border-radius:30px;
+    color:white;
+    font-size:1em;
+    cursor:pointer;
+  }
+  .formulario-login input[type="submit"]:hover{
+    background-color: white;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+    max-width:100%;
+    max-height: 100%;
+    background-color: #c41515;
+    text-decoration:underline;
+    color:rgba(255, 255, 255, 0.8);
+   
+    opacity:1;
+    transition:.2s;
+  }
+ 
+  .formulario-login input[type="submit"]:active{
+    transform:scale(0.95);
+  }
+ 
+  .formulario-login a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    color:rgba(0,0,0,0.5);
+   
+  }
+ 
+  .formulario-login a:hover{
+   
+    text-decoration:underline;
+    color:rgba(0,0,0,0.8);
+ 
+  }
+ 
+  @media(max-width:780px){
+ 
+    .formualrio-login { width:75%; }
+ 
+  }
+ 
+  @media(max-width:480px){
+   
+    .formulario-login { width:95%; }
+ 
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background:  url("imagens/Desktop\ -\ 1.png") no-repeat center fixed;
+    background-size: cover;
+}
+h1{
+  text-align: center;
+  color: #c41515;
+}
+.tudo{
+  text-align: center;
+}
+.a{
+  background-color: #f3f3f3;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 100dvh;
+   
+}
+.borda{
+  border: 100%;
+}
+.sim{
+  border-radius:15px;
+  text-align: center;
+}
+#barra{
+  padding: 15px 10px ;
+ 
+}
+/* Animação */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+ 
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fadeIn {
+ 
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+ 
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+ 
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  animation-duration:2s;
+ 
+}
+button {
+  padding: 17px 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: #c41515;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  color: #f3f3f3;
+}
+ 
+button:hover {
+  letter-spacing: 3px;
+  background-color: #8f0303f5;
+  color: #c41515(0, 0%, 100%);
+  box-shadow: #c41515(93 24 220) 0px 7px 29px 0px;
+}
+ 
+button:active {
+  letter-spacing: 3px;
+  background-color: #01c9e7f5(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: #8f0303f5(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+.botaozin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+  padding: 15px 10px ;
+ 
+}
+h4{
+  text-align: center;
+  color: #c41515;
+}
+h5{
+  text-align: center;
+  color: #c41515;
+}
+.entrar {
+  padding: 14px 32px;
+  font-size: 18px;
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.logo {
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+  text-align: right;
+  font-family: sans-serif;
+}
+
+.logo .fatec {
+  color: #003950;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo .itapira {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo .desc {
+  font-size: 12px;
+  color: #333;
+}
